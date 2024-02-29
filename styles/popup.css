@@ -47,7 +47,7 @@
   padding: 0 8px;
   cursor: pointer;
   opacity: 1;
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
 }
 
 .popup-btn:hover {
@@ -61,9 +61,14 @@
   background-color: #f5f5f5;
   padding: 12px 16px;
   font-weight: 500;
+  font-size: 12px;
 
   a {
     text-decoration: none;
     color: #577453;
+    transition: opacity 0.25s ease-in-out;
+  }
+  a:hover {
+    opacity: 0.9;
   }
 }
