@@ -139,7 +139,13 @@ const CreatePopup = ({ top, left, selectedText }) => {
   padding: 0px;
   z-index: 9147483648;
   box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.25s ease;
 `;
+
+  setTimeout(() => {
+    popup.style.opacity = 1;
+  }, 10);
 
   const lezLabel = document.createElement("p");
   lezLabel.textContent = "Лезгинский";
