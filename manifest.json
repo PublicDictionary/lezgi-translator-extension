@@ -18,7 +18,11 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://lezgigazet.ru/*"],
+      "matches": [
+        "https://lezgigazet.ru/*",
+        "https://lez.wikipedia.org/*",
+        "https://www.lezgichal.ru/*"
+      ],
       "js": ["js/content.js"]
     }
   ]
